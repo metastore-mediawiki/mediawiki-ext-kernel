@@ -1,6 +1,6 @@
 <?php
 
-namespace MediaWiki\Extension\MW_EXT_Kernel;
+namespace MediaWiki\Extension\METADATA;
 
 use OutputPage, PPFrame, RequestContext, Skin;
 
