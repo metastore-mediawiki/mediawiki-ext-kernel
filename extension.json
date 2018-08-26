@@ -14,11 +14,11 @@
 		"MediaWiki": ">= 1.31.0"
 	},
 	"AutoloadClasses": {
-		"MediaWiki\\Extension\\METADATA\\MW_EXT_Kernel": "MW_EXT_Kernel.class.php"
+		"MediaWiki\\Extension\\MetaStore\\MW_EXT_Kernel": "MW_EXT_Kernel.class.php"
 	},
 	"Hooks": {
 		"BeforePageDisplay": [
-			"MediaWiki\\Extension\\METADATA\\MW_EXT_Kernel::onBeforePageDisplay"
+			"MediaWiki\\Extension\\MetaStore\\MW_EXT_Kernel::onBeforePageDisplay"
 		]
 	},
 	"MessagesDirs": {
