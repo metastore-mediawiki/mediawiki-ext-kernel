@@ -159,7 +159,7 @@ class MW_EXT_Kernel {
 	 * @return bool
 	 */
 	public static function onBeforePageDisplay( OutputPage $out, Skin $skin ) {
-		$out->addModuleStyles( [ 'ext.mw.core.styles' ] );
+		$out->addModuleStyles( [ 'ext.mw.kernel.styles' ] );
 
 		return true;
 	}

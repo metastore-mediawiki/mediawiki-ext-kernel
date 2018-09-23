@@ -27,7 +27,7 @@
 		]
 	},
 	"ResourceModules": {
-		"ext.mw.core.styles": {
+		"ext.mw.kernel.styles": {
 			"styles": [
 				"styles/theme.css"
 			],
